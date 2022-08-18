@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,160 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.main
+{
+  padding-bottom: 50px;
 }
+
+.flexbox
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+h1
+{
+  font-weight: 300;
+  letter-spacing: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.eventsButton
+{
+  display: block;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  border: none;
+  background-color: #d94979;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-weight: 500;
+}
+
+.eventsButton:hover, .addTask:hover, .clear:hover
+{
+  background-color: #ce4774;
+  cursor: pointer;
+}
+
+.listContainer
+{
+  margin-top: 10px;
+  width: 450px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-end; */
+}
+
+.taskForm
+{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.taskInput
+{
+  width: 400px;
+  border: none;
+  background-color: #ffffff;
+  color: #d94979;
+  height: 25px;
+  padding: 4px;
+  border: 1px solid;
+}
+
+.taskInput::placeholder
+{
+  color: #d94979;
+}
+
+.taskInput:focus
+{
+  background-color: #fff6f9;
+  outline: white;
+}
+
+
+.addTask
+{
+  height: 35px;
+  width: 35px;
+  background-color: #d94979;
+  border: none;
+}
+
+.plusIcon 
+{
+  font-size: 15px;
+  color: white;
+}
+
+.clear
+{
+  margin-top: 20px;
+  height: 35px;
+  width: 70px;
+  background-color: #d94979;
+  border: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* .taskPlace
+{
+  margin-top: 10px;
+  height: 25px;
+  line-height: 25px;
+  padding: 5px;
+  background-color: white;
+} */
+
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 5px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.isOverColor
+{
+  background-color: #e7a8bd;
+  color: white;
+}
+/* .taskInfo
+{
+  background-color: white;
+  height: 25px;
+  line-height: 25px;
+  padding: 5px;
+  margin-bottom: 10px;
+} */
+
+.text
+{
+  width: 350px;
+  text-align: justify;
+  word-wrap:break-word;
+}
+
+/* .date
+{
+  width: 80px;
+  display: flex;
+  justify-content: row;
+  align-items: flex-end;
+} */
